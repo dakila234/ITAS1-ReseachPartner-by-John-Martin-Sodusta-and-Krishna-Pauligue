@@ -32,7 +32,7 @@ group chat, it adds two shared research tools: **idea cards with categories** an
 | **Course / Section** | ITAS1 - Network Programming / BSIT-2BSD |
 | **Instructor** | Kenth Joshua Espina |
 | **Partner 1** | John Martin Sodusta - GitHub: [`@dakila234`](https://github.com/dakila234) |
-| **Partner 2** | Krishna Pauligue - GitHub: [`@KRISHNA-GITHUB-USERNAME`](https://github.com/KRISHNA-GITHUB-USERNAME) |
+| **Partner 2** | Krishna Pauligue - GitHub: [`@krishnapauligue`](https://github.com/krishnapauligue) |
 | **Repository** | [ITAS1-ReseachPartner-by-John-Martin-Sodusta-and-Krishna-Pauligue](https://github.com/dakila234/ITAS1-ReseachPartner-by-John-Martin-Sodusta-and-Krishna-Pauligue) |
 | **Final commit hash** | ed710642cb9f382c9d65d6536254252b5179d245 |
 | **Technology** | Java SE (JDK 11+), Swing (JFrame), `java.net.Socket` / `ServerSocket`, Apache NetBeans (Ant) |
