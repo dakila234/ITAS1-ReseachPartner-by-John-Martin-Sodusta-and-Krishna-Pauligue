@@ -34,7 +34,7 @@ group chat, it adds two shared research tools: **idea cards with categories** an
 | **Partner 1** | John Martin Sodusta - GitHub: [`@dakila234`](https://github.com/dakila234) |
 | **Partner 2** | Krishna Pauligue - GitHub: [`@KRISHNA-GITHUB-USERNAME`](https://github.com/KRISHNA-GITHUB-USERNAME) |
 | **Repository** | [ITAS1-ReseachPartner-by-John-Martin-Sodusta-and-Krishna-Pauligue](https://github.com/dakila234/ITAS1-ReseachPartner-by-John-Martin-Sodusta-and-Krishna-Pauligue) |
-| **Final commit hash** | Submitted separately with the repository URL (a hash written in the README would change on commit) |
+| **Final commit hash** | ed710642cb9f382c9d65d6536254252b5179d245 |
 | **Technology** | Java SE (JDK 11+), Swing (JFrame), `java.net.Socket` / `ServerSocket`, Apache NetBeans (Ant) |
 
 ---
@@ -310,7 +310,7 @@ four category lists: Hypothesis, Method, Source and Question.
 
 ### Part A - Automated test (server and three clients over real sockets)
 
-`test/researchpartners/SmokeTest.java` starts a real `ChatServer` and connects three simulated clients (Ana, Ben, Cy),
+`test/researchpartners/SmokeTest.java` starts a real `ChatServer` and connectstwo simulated clients (Ana, Ben, Cy),
 then a fourth (Dee) later. To reproduce: open the file in NetBeans and choose **Run File** (Shift+F6).
 
 **Run date:** 2026-11-19 | **JDK:** 21 | **Setup:** one computer (localhost) | **Result: all 33 checks passed.**
@@ -344,8 +344,9 @@ Full raw output is in [TEST_EVIDENCE.md](TEST_EVIDENCE.md).
 
 ### Part B - Manual test on two computers (fill in during testing)
 
-**Setup used:** Server on Computer ____ (IP ________, port 5070). Clients: ________ on Computer A,
-________ and ________ on Computer B. **Date tested:** ________
+**Setup used:** Server on Computer A (IP 172.20.179.44, port 5070).
+Clients: Martin and Martin2 on Computer A, Krishna on Computer B.
+**Date tested:** 2026-11-23
 
 | # | Test | Steps | Expected result | Actual result | Status | Evidence |
 |---|---|---|---|---|---|---|
@@ -372,19 +373,19 @@ ________ and ________ on Computer B. **Date tested:** ________
 
 > Both partners must contribute code from their **own** GitHub accounts. Add dated tasks with links to commits.
 
-### Partner 1 - `<Name>` (`@username1`)
+### John Martin Sodusta -  (`@dakila234`)
 
 | Date | Task | Commit |
 |---|---|---|
-| `<date>` | `<e.g. Server accept loop and ClientHandler>` | [`abc1234`](https://github.com/username1/REPO/commit/abc1234) |
-| `<date>` | `<task>` | `<link>` |
+| 2026-11-23 | ` Server accept loop and ClientHandler` | |
 
-### Partner 2 - `<Name>` (`@username2`)
+
+### krishana Pauligue -  (`@krishnapauligue`)
 
 | Date | Task | Commit |
 |---|---|---|
-| `<date>` | `<e.g. Swing join screen and chat panel>` | `<link>` |
-| `<date>` | `<task>` | `<link>` |
+| 2026-11-23 | ` Swing join screen and chat panel` 
+|
 
 ---
 
@@ -393,5 +394,5 @@ ________ and ________ on Computer B. **Date tested:** ________
 - **Libraries:** Java SE standard library only (`java.net`, `java.io`, `javax.swing`). No external dependencies.
 - **Tools:** Apache NetBeans, JDK 21.
 - **AI assistance:** Parts of the code and this documentation were produced with assistance from Claude (Anthropic) and
-  then reviewed and tested by the team. `<Describe which parts each partner wrote or changed themselves.>`
+  then reviewed and tested by the team. 
 - Both partners can explain the submitted code, including the full message path from client to server to recipients.
