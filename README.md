@@ -1,6 +1,6 @@
 # Research Partners
 
-**ITAS1 Final Project - Network Programming | Java LAN Chat Application (by pair)**
+**ITAS2112 Final Project - Network Programming | Java LAN Chat Application (by pair)**
 
 Research Partners is a Java group-chat application for **student research teams**. It runs over a local network
 (LAN / Wi-Fi) using plain TCP sockets, with one multi-threaded server and Swing graphical clients. Besides normal
@@ -29,7 +29,7 @@ group chat, it adds two shared research tools: **idea cards with categories** an
 | | |
 |---|---|
 | **Project name** | Research Partners |
-| **Course / Section** | ITAS1 - Network Programming / BSIT-2BSD |
+| **Course / Section** | ITAS2112 - Network Programming / BSIT-2BSD |
 | **Instructor** | Kenth Joshua Espina |
 | **Partner 1** | John Martin Sodusta - GitHub: [`@dakila234`](https://github.com/dakila234) |
 | **Partner 2** | Krishna Pauligue - GitHub: [`@krishnapauligue`](https://github.com/krishnapauligue) |
