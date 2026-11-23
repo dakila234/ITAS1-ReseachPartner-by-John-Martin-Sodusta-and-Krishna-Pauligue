@@ -392,7 +392,7 @@ Clients: Martin and Martin2 on Computer A, Krishna on Computer B.
 ## 11. Credits, Reused Libraries and AI Assistance
 
 - **Libraries:** Java SE standard library only (`java.net`, `java.io`, `javax.swing`). No external dependencies.
-- **Tools:** Apache NetBeans, JDK 21.
+- **Tools:** Apache NetBeans, JDK 25.
 - **AI assistance:** Parts of the code and this documentation were produced with assistance from Claude (Anthropic) and
   then reviewed and tested by the team. 
 - Both partners can explain the submitted code, including the full message path from client to server to recipients.
