@@ -385,7 +385,7 @@ then a fourth (Dee) later. To reproduce: open the file in NetBeans and choose **
 
 | Date | Task | Commit |
 |---|---|---|
-| 2026-11-23 | ` Swing join screen and chat panel` ||
+| 2026-11-23 | ` Swing join screen and chat panel` |https://github.com/dakila234/ITAS1-ReseachPartner-by-John-Martin-Sodusta-and-Krishna-Pauligue/tree/b01aa7e1d0fa7c4bf668280cdbf5572dee444706|
 |
 
 ---
