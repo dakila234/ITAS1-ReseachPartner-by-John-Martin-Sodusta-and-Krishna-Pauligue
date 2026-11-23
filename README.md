@@ -345,7 +345,7 @@ Full raw output is in [TEST_EVIDENCE.md](TEST_EVIDENCE.md).
 ### Part B - Manual test on two computers (fill in during testing)
 
 **Setup used:** Server on Computer A (IP 172.20.179.44, port 5070).
-Clients: Martin and Martin2 on Computer A, Krishna on Computer B.
+Clients: Martin  on Computer A, Krishna on Computer B.
 **Date tested:** 2026-11-23
 
 | # | Test | Steps | Expected result | Actual result | Status | Evidence |
