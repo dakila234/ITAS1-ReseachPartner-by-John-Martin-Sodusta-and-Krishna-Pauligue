@@ -377,14 +377,14 @@ Clients: Martin and Martin2 on Computer A, Krishna on Computer B.
 
 | Date | Task | Commit |
 |---|---|---|
-| 2026-11-23 | ` Server accept loop and ClientHandler` | |
+| 2026-11-23 | ` Server accept loop and ClientHandler` | https://github.com/dakila234/ITAS1-ReseachPartner-by-John-Martin-Sodusta-and-Krishna-Pauligue/tree/1503dc59c76e4e796e0566df0748fab54863ec79|
 
 
 ### krishana Pauligue -  (`@krishnapauligue`)
 
 | Date | Task | Commit |
 |---|---|---|
-| 2026-11-23 | ` Swing join screen and chat panel` 
+| 2026-11-23 | ` Swing join screen and chat panel` ||
 |
 
 ---
