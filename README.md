@@ -34,7 +34,7 @@ group chat, it adds two shared research tools: **idea cards with categories** an
 | **Partner 1** | John Martin Sodusta - GitHub: [`@dakila234`](https://github.com/dakila234) |
 | **Partner 2** | Krishna Pauligue - GitHub: [`@krishnapauligue`](https://github.com/krishnapauligue) |
 | **Repository** | [ITAS1-ReseachPartner-by-John-Martin-Sodusta-and-Krishna-Pauligue](https://github.com/dakila234/ITAS1-ReseachPartner-by-John-Martin-Sodusta-and-Krishna-Pauligue) |
-| **Final commit hash** | ed710642cb9f382c9d65d6536254252b5179d245 |
+| **Final commit hash** | cf7ed6390b92430307235b58a183aa400f8797f7|
 | **Technology** | Java SE (JDK 11+), Swing (JFrame), `java.net.Socket` / `ServerSocket`, Apache NetBeans (Ant) |
 
 ---
