@@ -340,7 +340,6 @@ then a fourth (Dee) later. To reproduce: open the file in NetBeans and choose **
 | A21 | Author removes a card | `REMOVED` reaches clients | As expected | PASS |
 | A22 | Idea Board and Decisions pages | Build and update without errors | As expected | PASS |
 
-Full raw output is in [TEST_EVIDENCE.md](TEST_EVIDENCE.md).
 
 ### Part B - Manual test on two computers (fill in during testing)
 
@@ -348,24 +347,24 @@ Full raw output is in [TEST_EVIDENCE.md](TEST_EVIDENCE.md).
 Clients: Martin  on Computer A, Krishna on Computer B.
 **Date tested:** 2026-11-23
 
-| # | Test | Steps | Expected result | Actual result | Status | Evidence |
+| # | Test | Steps | Expected result | Actual result | Status |
 |---|---|---|---|---|---|---|
-| B1 | Three concurrent clients | Start the server; join with three nicknames across two computers | All three appear in the online list | | | `screenshots/` |
-| B2 | Message broadcast | Send a message from each client | Every client sees it once, with sender and time | | | |
-| B3 | Online list updates | Join and close clients | Join/leave notices appear and the list updates | | | |
-| B4 | Valid nickname | Join with a valid unique nickname | Join succeeds | | | |
-| B5 | Duplicate nickname | Join with a nickname already in use | Error shown, not connected | | | |
-| B6 | Blank message | Press Send with an empty box | Nothing is sent | | | |
-| B7 | Invalid IP | Enter an invalid address | Readable error, window does not freeze | | | |
-| B8 | Invalid port | Enter `abc` or `70000` | "Port must be a number from 1 to 65535." | | | |
-| B9 | Unavailable server | Join while the server is not running | "Could not reach the server..." | | | |
-| B10 | Clean exit | Type `/quit` | Client leaves; others see the leave notice | | | |
-| B11 | Abrupt disconnection | Kill one client window / unplug Wi-Fi | Server and other clients keep working | | | |
-| B12 | Chat continues | Send messages after B11 | Remaining clients still chat | | | |
-| B13 | Commands | `/help`, `/list`, `/msg`, `/idea`, `/decide`, `/vote`, `/close`, `/delidea` | Each works | | | |
-| B14 | Feature 1 from two clients | Pin cards in each category on Client A | Cards appear in the right list on Client B; removal syncs | | | |
-| B15 | Feature 2 from two clients | Press Decide on a card; vote from both; change a vote; owner closes | Voter names move; outcome recorded and buttons disabled on both | | | |
-| B16 | Server stopped while clients are open | Stop the server | Clients show a "lost connection" message and return to the join screen | | | |
+| B1 | Three concurrent clients | Start the server; join with three nicknames across two computers | All three appear in the online list |As expected | PASS | 
+| B2 | Message broadcast | Send a message from each client | Every client sees it once, with sender and time | As expected| PASS | 
+| B3 | Online list updates | Join and close clients | Join/leave notices appear and the list updates |As expected |PASS  | 
+| B4 | Valid nickname | Join with a valid unique nickname | Join succeeds | As expected| PASS | 
+| B5 | Duplicate nickname | Join with a nickname already in use | Error shown, not connected |As expected |PASS  | 
+| B6 | Blank message | Press Send with an empty box | Nothing is sent |As expected | PASS | 
+| B7 | Invalid IP | Enter an invalid address | Readable error, window does not freeze | As expected| PASS | 
+| B8 | Invalid port | Enter `abc` or `70000` | "Port must be a number from 1 to 65535." |As expected |PASS  | 
+| B9 | Unavailable server | Join while the server is not running | "Could not reach the server..." | As expected| PASS | 
+| B10 | Clean exit | Type `/quit` | Client leaves; others see the leave notice |As expected | PASS | 
+| B11 | Abrupt disconnection | Kill one client window / unplug Wi-Fi | Server and other clients keep working | As expected|PASS  | 
+| B12 | Chat continues | Send messages after B11 | Remaining clients still chat | As expected| PASS | 
+| B13 | Commands | `/help`, `/list`, `/msg`, `/idea`, `/decide`, `/vote`, `/close`, `/delidea` | Each works |As expected | PASS | 
+| B14 | Feature 1 from two clients | Pin cards in each category on Client A | Cards appear in the right list on Client B; removal syncs | As expectedPASS | | 
+| B15 | Feature 2 from two clients | Press Decide on a card; vote from both; change a vote; owner closes | Voter names move; outcome recorded and buttons disabled on both | As expected|PASS  | 
+| B16 | Server stopped while clients are open | Stop the server | Clients show a "lost connection" message and return to the join screen |As expected| PASS | 
 
 ---
 
